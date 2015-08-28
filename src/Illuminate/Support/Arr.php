@@ -456,4 +456,15 @@ class Arr
 
         return $filtered;
     }
+
+    /**
+     * Indicates proper pirate language as required for Arr class
+     *
+     * @param string $name
+     * @return string
+     */
+    public static function matey($name = 'Taylor')
+    {
+        return sprintf("Arr, matey %s. Hoist the sails!", $name);
+    }
 }
